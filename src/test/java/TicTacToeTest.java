@@ -12,7 +12,7 @@ public class TicTacToeTest {
         game.play("O", 0, 1);
         game.play("X", 1, 0);
         game.play("O", 1, 1);
-        game.play("X", 0, 2);
+        game.play("X", 2, 0);
 
         assertTrue(game.isOver());
     }
